@@ -1,0 +1,967 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset=utf-8>
+    <title>portfolio</title> <!-- CSS CDN -->
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles Nav1 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/eleganticons@0.0.1/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-nice-select@1.1.0/css/nice-select.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" />
+
+    <!-- Js Plugins Nav1 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="http://hernansartorio.com/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-zoom/1.7.21/jquery.zoom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-dropdown/2.0.3/jquery.dropdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"> </script>
+
+    <!-- Css Styles Nav2 -->
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/eleganticons@0.0.1/css/style.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-nice-select@1.1.0/css/nice-select.css"> -->
+    <!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" /> -->
+
+    <!-- <script src="js/jquery.sticky.js"></script> -->
+    <!-- <script src="js/main.js"></script> -->
+    <!-- Js Plugins Nav 2-->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/ulg/popper.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
+    <!-- <script src="http://hernansartorio.com/jquery-nice-select/js/jquery.nice-select.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-zoom/1.7.21/jquery.zoom.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-dropdown/2.0.3/jquery.dropdown.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxchimp/1.3.0/jquery.ajaxchimp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"> </script>
+
+
+
+    <!-- footer -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.css" /> -->
+
+</head>
+
+<body>
+
+    <style>
+        /*--------------------------- Color variations ----------------------*/
+        /*--------------------------- Fonts ----------------------*/
+        @import url("https://fonts.googleapis.com/css?family=Poppins:500,700|Roboto:400,500");
+        @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Grenze+Gotisch:wght@700&display=swap');
+
+        body {
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+            background: url('https://scontent.fdac13-1.fna.fbcdn.net/v/t1.0-9/37019272_1359476327519407_6605172273999511552_o.jpg?_nc_cat=104&_nc_sid=a4a2d7&_nc_ohc=1ViemMSm8SAAX-SEFtD&_nc_ht=scontent.fdac13-1.fna&oh=6e1d50d827e5a86240fea6ed28e55b84&oe=5F3E8C40');
+            /* position: relative; */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+
+
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .logo_h {
+            font-size: 30px;
+            color: black !important;
+            /* -webkit-text-stroke: 2px black; */
+            /* font-family: 'Anton', sans-serif; */
+            font-family: 'Grenze Gotisch', cursive;
+            /* font-family: 'Rowdies', cursive; */
+            /* text-shadow: 6px 6px 8px #060606; */
+            /* background: -webkit-linear-gradient(#eee, #333);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; */
+            letter-spacing: 10px;
+        }
+
+        .intro {
+            /* background: blue; */
+            margin-top: 300px;
+            /* margin-bottom: 200px; */
+            color: #fff;
+            -webkit-text-stroke: 2px black;
+            /* font-family: 'Anton', sans-serif; */
+            font-family: 'Grenze Gotisch', cursive;
+            /* font-family: 'Rowdies', cursive; */
+            text-shadow: 6px 6px 8px #060606;
+            /* background: -webkit-linear-gradient(#eee, #333);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; */
+            letter-spacing: 10px;
+
+
+        }
+
+        @media (max-width:700px) {
+            .intro {
+                margin-top: 300px;
+                margin-bottom: 160px;
+                letter-spacing: 6px;
+
+
+            }
+
+            #name {
+                font-size: 70px !important;
+            }
+
+            #work {
+                font-size: 40px !important;
+            }
+
+            #skills {
+                padding: 25px !important;
+            }
+        }
+
+
+
+        #skills {
+            margin: 50px 0;
+            transform: translate(-2200px, 0);
+            background: #1fd048d9;
+            padding: 70px;
+        }
+
+        #services {
+            /* height: 900px; */
+            background-color: #0086b0c9;
+            /* background-image: linear-gradient(315deg, #bfa40abf 0%, #298c42e0 74%); */
+            margin: 140px 0;
+            padding: 60px;
+            transform: translate(2200px, 0);
+        }
+
+        .card {
+            /* background: #95c8d8b3; */
+            border: 4px solid #d3d3d3;
+        }
+
+        .grow:hover {
+            transform: scale(1.03);
+
+            box-shadow: 3px 3px 6px 8px #007bff;
+            transition: all .2s linear;
+        }
+
+        /*mystyle up*/
+
+
+        .txt_deco_none {
+            /* text-decoration: none; */
+            color: white;
+        }
+
+        .txt_deco_none:hover {
+            text-decoration: none;
+            color: green;
+        }
+
+        #container {
+            /* min-height:100%;
+            min-width: 100%; */
+            /* position:relative; */
+        }
+
+        .bottom_footer {
+            min-width: 100%;
+            /* position: absolute; */
+            /* right:  0; */
+            bottom: 0;
+
+        }
+
+        .orange_shade {
+            background-color: #FF6200;
+        }
+
+        /* footer*/
+        .no-padding {
+            padding: 0;
+        }
+
+        .section_gap {
+            padding: 100px 0;
+        }
+
+        @media (max-width: 991px) {
+            .section_gap {
+                padding: 80px 0;
+            }
+        }
+
+        .section_gap_top_75 {
+            padding: 75px 0;
+        }
+
+        @media (max-width: 991px) {
+            .section_gap_top_75 {
+                padding: 70px 0;
+            }
+        }
+
+        .section_gap_75 {
+            padding: 75px 0;
+        }
+
+        @media (max-width: 991px) {
+            .section_gap_75 {
+                padding: 70px 0;
+            }
+        }
+
+        .section_gap_top {
+            padding-top: 100px;
+        }
+
+        @media (max-width: 991px) {
+            .section_gap_top {
+                padding-top: 80px;
+            }
+        }
+
+        .section_gap_bottom {
+            padding-bottom: 100px;
+        }
+
+        @media (max-width: 991px) {
+            .section_gap_bottom {
+                padding-bottom: 80px;
+            }
+        }
+
+        .gray-bg {
+            background: #f9f9ff;
+        }
+
+        /* Section title css
+    ============================================================================================ */
+        .section-title {
+            margin-bottom: 50px;
+        }
+
+        .section-title h1 {
+            font-size: 36px;
+        }
+
+        .section-title p {
+            margin-bottom: 0;
+        }
+
+        /* Start Gradient Area css
+    ============================================================================================ */
+        .gradient-bg,
+        .primary-btn,
+        .add-bag .add-btn,
+        .single-product .product-details .prd-bottom .social-info span:after,
+        .grid-btn:hover,
+        .list-btn:hover,
+        .grid-btn.active,
+        .list-btn.active,
+        .pagination a.active,
+        .pagination a:hover,
+        .s_Product_carousel .owl-dots div.active,
+        .s_product_text .card_area .icon_btn:after,
+        .product_description_area .nav.nav-tabs li a.active,
+        .blog-pagination .page-item.active .page-link,
+        .single-footer-widget .click-btn {
+            background: -webkit-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+            background: -moz-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+            background: -o-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+            background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+        }
+
+        .gradient-bg-reverse,
+        #search_input_box {
+            background: -webkit-linear-gradient(270deg, #3764de 0%, #224fc9 100%);
+            background: -moz-linear-gradient(270deg, #3764de 0%, #224fc9 100%);
+            background: -o-linear-gradient(270deg, #3764de 0%, #224fc9 100%);
+            background: linear-gradient(270deg, #3764de 0%, #224fc9 100%);
+        }
+
+        .gradient-color,
+        .s_product_text h2,
+        .s_product_text .list li a.active,
+        .product_description_area .tab-content .total_rate .box_total h4,
+        .single-footer-widget .bb-btn {
+            background: -webkit-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+            background: -moz-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+            background: -o-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+            background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+
+
+        .is-sticky .header_area .main_menu .main_box {
+            max-width: 100%;
+            margin-top: 0;
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+        }
+
+        .is-sticky .header_area #search_input_box {
+            max-width: 100%;
+        }
+
+        .sticky-wrapper {
+            position: absolute;
+            top: 40px;
+            width: 100%;
+            z-index: 10;
+        }
+
+        @media (max-width: 991px) {
+            .sticky-wrapper {
+                top: 0;
+            }
+        }
+
+        .header_area {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 99;
+            transition: background-color 0.4s, all 0.3s linear;
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+        }
+
+        .header_area .main_menu .main_box {
+            background: #F8F8F8;
+            margin: 0px auto 0;
+            max-width: 1200px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+        }
+
+        .header_area .navbar {
+            background: #fff;
+            padding: 0px;
+            border: 0px;
+            border-radius: 0px;
+        }
+
+        @media (max-width: 991px) {
+            .header_area .navbar .navbar-collapse {
+                margin-top: 30px;
+            }
+
+            .header_area .navbar .navbar-collapse .nav-item {
+                padding: 10px;
+            }
+        }
+
+        .header_area .navbar .navbar-toggler .icon-bar {
+            color: #000;
+            height: 2px;
+            width: 20px;
+            content: "";
+            background: #000;
+            display: block;
+            margin: 5px;
+        }
+
+        .header_area .navbar .nav .nav-item {
+            margin-right: 45px;
+        }
+
+        .header_area .navbar .nav .nav-item .nav-link {
+            text-transform: uppercase;
+            padding: 0px;
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 500;
+            color: #222222;
+        }
+
+        @media (min-width: 991px) {
+            .header_area .navbar .nav .nav-item .nav-link {
+                padding: 10px 0;
+            }
+        }
+
+        .header_area .navbar .nav .nav-item .nav-link:after {
+            display: none;
+        }
+
+        .header_area .navbar .nav .nav-item:hover .nav-link,
+        .header_area .navbar .nav .nav-item.active .nav-link {
+            color: #3764de;
+        }
+
+        .header_area .navbar .nav .nav-item.submenu {
+            position: relative;
+        }
+
+        .header_area .navbar .nav .nav-item.submenu ul {
+            border: none;
+            padding: 0px;
+            border-radius: 0px;
+            box-shadow: none;
+            margin: 0px;
+            background: #fff;
+        }
+
+        @media (min-width: 992px) {
+            .header_area .navbar .nav .nav-item.submenu ul {
+                position: absolute;
+                top: 140%;
+                left: 0px;
+                min-width: 200px;
+                text-align: left;
+                opacity: 0;
+                -webkit-transition: visibility 0.5s ease;
+                -moz-transition: visibility 0.5s ease;
+                -o-transition: visibility 0.5s ease;
+                transition: visibility 0.5s ease;
+                visibility: hidden;
+                display: block;
+            }
+        }
+
+        .header_area .navbar .nav .nav-item.submenu ul:before {
+            content: "";
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 10px 10px 0 10px;
+            border-color: #eeeeee transparent transparent transparent;
+            position: absolute;
+            right: 24px;
+            top: 45px;
+            z-index: 3;
+            opacity: 0;
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+        }
+
+        .header_area .navbar .nav .nav-item.submenu ul .nav-item {
+            display: block;
+            float: none;
+            margin-right: 0px;
+            border-bottom: 1px solid #ededed;
+            margin-left: 0px;
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+        }
+
+        .header_area .navbar .nav .nav-item.submenu ul .nav-item.active {
+            background: #3764de;
+        }
+
+        .header_area .navbar .nav .nav-item.submenu ul .nav-item.active .nav-link {
+            color: #fff;
+        }
+
+        .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+            line-height: 45px;
+            padding: 0px 30px;
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            display: block;
+            margin-right: 0px;
+        }
+
+        .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
+            border-bottom: none;
+        }
+
+        .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
+            background: #3764de;
+            color: #fff;
+        }
+
+        @media (min-width: 992px) {
+            .header_area .navbar .nav .nav-item.submenu:hover ul {
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+
+        .header_area .navbar .nav .nav-item.submenu:hover ul .nav-item {
+            margin-top: 0px;
+        }
+
+        .header_area .navbar .nav .nav-item:last-child {
+            margin-right: 0px;
+        }
+
+        @media (min-width: 991px) {
+            .header_area .navbar .nav.navbar-nav.navbar-right {
+                display: -webkit-inline-box;
+            }
+        }
+
+        .header_area .navbar .nav.navbar-nav.navbar-right li {
+            margin-left: 25px;
+            margin-right: 0px;
+        }
+
+        @media (max-width: 991px) {
+            .header_area .navbar .nav.navbar-nav.navbar-right li {
+                margin-left: 0px;
+            }
+        }
+
+        .header_area .navbar .nav.navbar-nav.navbar-right li:first-child {
+            margin-left: 35px;
+        }
+
+        @media (max-width: 991px) {
+            .header_area .navbar .nav.navbar-nav.navbar-right li:first-child {
+                display: none;
+            }
+        }
+
+        .header_area .navbar .nav.navbar-nav.navbar-right li span {
+            color: #222222;
+            line-height: 80px;
+            font-weight: 500;
+        }
+
+        .header_area .navbar .nav.navbar-nav.navbar-right .search {
+            background: transparent;
+            border: 0;
+            cursor: pointer;
+            padding: 0;
+        }
+
+        #search_input_box {
+            position: fixed;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 1200px;
+            z-index: 999;
+            text-align: center;
+            padding: 5px 20px;
+        }
+
+        #search_input_box .form-control {
+            background: transparent;
+            border: 0;
+            color: #ffffff;
+            font-weight: 400;
+            font-size: 15px;
+            padding: 0;
+        }
+
+        #search_input_box .form-control:focus {
+            box-shadow: none;
+            outline: none;
+        }
+
+        #search_input_box input.placeholder {
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        #search_input_box input:-moz-placeholder {
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        #search_input_box input::-moz-placeholder {
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        #search_input_box input::-webkit-input-placeholder {
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        #search_input_box .btn {
+            width: 0;
+            height: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #search_input_box .lnr-cross {
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 10px 3px;
+        }
+
+        .nav-link {
+            cursor: pointer;
+        }
+
+        @media (max-width: 575px) {
+
+            .navbar-expand-lg>.container,
+            .navbar-expand-lg>.container-fluid {
+                padding: 0px 15px;
+            }
+        }
+
+    </style>
+
+    <!-- Start Header Area -->
+    <header id="header_area" class="header_area sticky-header">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-dark main_box">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="#">ZAHIN</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" id="home" target="intro">Home</a></li>
+                            <li class="nav-item "><a class="nav-link about" target="skills">About Me</a></li>
+                            <li class="nav-item "><a class="nav-link service" target="services">Services</a></li>
+                            <li class="nav-item"><a class="nav-link contact" target="bottom_footer">Contact</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="nav-item"><a href="#" class="cart"><span class="ti-bag"></span></a></li>
+                            <li class="nav-item">
+                                <button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="search_input" id="search_input_box">
+            <div class="container">
+                <form class="d-flex justify-content-between">
+                    <input type="text" class="form-control" id="search_input" placeholder="Search Here">
+                    <button type="submit" class="btn"></button>
+                    <span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- End Header Area -->
+
+    <div class="container ">
+        <div class="text-center  intro" id="intro">
+            <div class="mx-auto" style="height:300px;">
+                <h3 id="name" style="font-size:100px">Md. Zahin Uddin</h3>
+                <p id="work" style="font-size:50px">Front-end developer </p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-around flex-wrap " id="skills">
+
+            <div class="text-white col-lg-6 col-sm-12">
+                <div class="m-0 row">
+                    <img class="p-0 img-fluid  col-lg-5 col-sm-6" style=""
+                        src="https://scontent.fdac13-1.fna.fbcdn.net/v/t1.0-9/75264829_1802214253245610_1865111048894283776_o.jpg?_nc_cat=110&_nc_sid=174925&_nc_ohc=sothRvYuqScAX8fvwaR&_nc_ht=scontent.fdac13-1.fna&oh=dd92d709093bba11686343ac59a6ed85&oe=5F425D2C"
+                        alt="">
+                    <div class=" pl-2 px-0 py-4 col-lg-7 col-sm-6">
+                        <p><span style="color:black">Name:</span> MD. Zahin Uddin</p>
+                        <p><span style="color:black">Profile:</span> Font-end Developer</p>
+                        <p><span style="color:black">E-mail:</span> Zahinuddin5@gmail.com</p>
+                        <!-- <p><span style="color:black">Mobile:</span> +88018.........</p> -->
+                    </div>
+                </div>
+                <div class="my-3">
+                    <div class="">
+                        <span class="" style="font-size:20px;border-bottom:2px solid white">Skills</span>
+                    </div>
+                    <div class="">
+                        <div class=" my-2">
+                            <span>HTML</span>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                            </div>
+                        </div>
+                        <div class="my-2">
+                            <span>Css</span>
+                            <div class="progress ">
+                                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                            </div>
+                        </div>
+                        <div class="my-2">
+                            <span>javaScript</span>
+                            <div class="progress ">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                            </div>
+                        </div>
+                        <div class="my-2">
+                            <span>Jquery</span>
+                            <div class="progress ">
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                            </div>
+                        </div>
+                        <div class="my-2">
+                            <span>React</span>
+                            <div class="progress ">
+                                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="mt-5 col-lg-6 col-sm-12">
+                <div class="text-white">
+                    <h3>About me</h3>
+                    <p style="word-wrap: break-word;">Something about me you all need to know .now im gonna tell you about that very soon.One of the most powerful forms of human communications is praise. We are surrounded by opportunities
+                        to
+                        use it — in teamwork, in the workplace, in family life, in volunteering, even in dog training — and when we do it well, it works wonders.
+
+                        Effective praise can permanently raise someone’s performance. It can dramatically alter someone’s self-image, or even the trajectory of their life. At the very least, it can make their day better.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="" id="services">
+            <div class="text-center text-white">
+                <h3 style="font-size:50px">Services</h3>
+                <p style="font-size:30px">Watch it till you finish it</p>
+                <hr style="border:2px solid black;width:40%">
+                <div class="">
+
+                </div>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="m-2 grow">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="">
+                                <i class="fa fa-code fa-3x" style="color:#50d950" aria-hidden="true"></i>
+                            </div>
+                            <h5 class="card-title my-2" style="color:#10b310;">
+                                Web Development
+                            </h5>
+                            <p class="card-text my-4">I'm a front-end developer.If you are watching this you already know it.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="m-2 grow ">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="">
+                                <i class="fa fa-mobile fa-3x" style="color:#50d950" aria-hidden="true"></i>
+                            </div>
+                            <h5 class="card-title my-2" style="color:#10b310;">
+                                Responsive Design
+                            </h5>
+                            <p class="card-text my-4">Web development comes with Responsive design.Grab your phone and browse this portfolio.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="m-2 grow">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="">
+                                <i class="fa fa-camera fa-3x" style="color:#50d950" aria-hidden="true"></i>
+                            </div>
+                            <h5 class="card-title my-2" style="color:#10b310;">
+                                Photography
+                            </h5>
+                            <p class="card-text my-4">Some Photography.I can do that.You can trust my decent hand.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom_footer text-white bg-dark p-5" id="container" style="">
+
+        <!-- <div class="mx-auto w-75 p-5"> -->
+        <div class="3_section_info row m-0  text-center">
+
+
+            <div class="col-sm-12 col-md-4  my-3 " id="links">
+                <h3>About</h3>
+                <div class=" ">
+                    <p><span style="color:black">Name:</span> MD. Zahin Uddin</p>
+                    <p><span style="color:black">Profile:</span> Font-end Developer</p>
+                    <p><span style="color:black">E-mail:</span> Zahinuddin5@gmail.com</p>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4  my-3 " id="faq">
+                <h3>Used site</h3>
+                <div>
+                    <p><a href="https://getbootstrap.com/" class="txt_deco_none">Bootstrap</a></p>
+                    <p><a href="https://www.w3schools.com/" class="txt_deco_none">W3Schools</a></p>
+                    <p><a href="https://jquery.com/" class="txt_deco_none">Jquery</a></p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4  my-3 " id="social">
+                <h3>Get in touch</h3>
+                <div class="social_links">
+                    <span class="mx-2"><a href="https://www.facebook.com/zahin.uddin"><i class="fa fa-facebook-official fa-2x" style="color:white" aria-hidden="true"></i></a></span>
+                    <span class="mx-2"><a href="https://www.youtube.com/channel/UCBVY3HnMSvr_3Msf-_k6tOA?view_as=subscriber"><i class="fa fa-youtube-play fa-2x" style="color:white" aria-hidden="true"></i></a></span>
+                    <span class="mx-2"><a href="https://www.reddit.com/"><i class="fa fa-reddit fa-2x" style="color:white" aria-hidden="true"></i></a></span>
+                    <span class="mx-2"><a href="https://github.com/Zahin52"><i class="fa fa-github fa-2x" style="color:white" aria-hidden="true"></i></a></span>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class=" d-flex justify-content-center copy_right">
+            <p>&copy; 2020 zahinuddin5@gmail.com<p>
+        </div>
+
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $(".about").on('click', function(event) {
+
+                $('html, body').animate({
+                    scrollTop: $("#skills").offset().top - 85
+                }, 2000);
+
+            });
+            $(".service").on('click', function(event) {
+
+                $('html, body').animate({
+                    scrollTop: $("#services").offset().top - 85
+                }, 2000);
+
+            });
+            $(".contact").on('click', function(event) {
+
+                $('html, body').animate({
+                    scrollTop: $(".bottom_footer").offset().top
+                }, 2000);
+
+            });
+            $("#home").on('click', function(event) {
+
+                $('html, body').animate({
+                    scrollTop: 0
+
+                }, 2000);
+
+            });
+        });
+
+    </script>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.to("#skills", {
+            scrollTrigger: {
+                trigger: ".intro",
+                toggleActions: "restart none none reverse",
+                start: "bottom center",
+                // end: "+=200",
+                // scrub: true,
+                // markers: true
+            },
+            x: 0,
+            duration: 1,
+            ease: "back.inOut",
+        });
+
+        gsap.to("#services", {
+            scrollTrigger: {
+                trigger: "#skills",
+                toggleActions: "restart none none reverse",
+                start: "bottom center",
+                // end: "+=200",
+                // scrub: true,
+                // markers: true
+            },
+            x: 0,
+            duration: 1,
+            ease: "back.inOut",
+        });
+
+    </script>
+
+    <script>
+        var window_width = $(window).width(),
+            window_height = window.innerHeight,
+            header_height = $(".default-header").height(),
+            header_height_static = $(".site-header.static").outerHeight(),
+            fitscreen = window_height - header_height;
+
+
+        $(".fullscreen").css("height", window_height)
+        $(".fitscreen").css("height", fitscreen);
+
+        //------- Active Nice Select --------//
+
+        $('select').niceSelect();
+
+
+        $('.navbar-nav li.dropdown').hover(function() {
+            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+        }, function() {
+            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+        });
+
+
+
+        // Search Toggle
+        $("#search_input_box").hide();
+        $("#search").on("click", function() {
+            $("#search_input_box").slideToggle();
+            $("#search_input").focus();
+        });
+        $("#close_search").on("click", function() {
+            $('#search_input_box').slideUp(500);
+        });
+
+        /*==========================
+            javaScript for sticky header
+            ============================*/
+        $(".sticky-header").sticky();
+
+    </script>
+
+</body>
+
+</html>
